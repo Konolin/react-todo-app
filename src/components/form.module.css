@@ -1,0 +1,37 @@
+.form {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 5%;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4);
+}
+
+.input {
+  width: 100%;
+  border: none;
+  display: block;
+  color: black;
+  font-size: 26px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+.button {
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+  background-color: darkgrey;
+  padding: 12px;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+  font-weight: bold;
+}
+
+.inputContainer {
+  display: flex;
+}
